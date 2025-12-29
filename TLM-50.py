@@ -1,9 +1,9 @@
-# 50 line LLM Made by ZackIonic
+# 50 line TLM Made by ZackIonic
 
 import random
 import urllib.request
 
-reader = urllib.request.urlopen("https://raw.githubusercontent.com/ZackIonic/llm-50/refs/heads/main/llm-context").read().decode('utf-8')
+reader = urllib.request.urlopen("https://raw.githubusercontent.com/ZackIonic/llm-50/refs/heads/main/tlm-context").read().decode('utf-8')
 
 window = []
 successor_map = {}
@@ -48,3 +48,4 @@ while True:
             break
 
     print('\n')
+
